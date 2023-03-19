@@ -24,5 +24,4 @@ public interface CompanyMapper {
             """)
     Optional<CompanyEntity> findByCode(@Param("code") String code);
 
-
 }
